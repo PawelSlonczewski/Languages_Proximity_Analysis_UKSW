@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.Objects;
 
 public class Translator {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public Translator() {
         ChromeOptions options = new ChromeOptions();

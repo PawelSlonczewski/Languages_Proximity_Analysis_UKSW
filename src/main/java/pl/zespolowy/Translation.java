@@ -1,9 +1,12 @@
 package pl.zespolowy;
 
+import lombok.Getter;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+@Getter
 public class Translation {
     private String text;
 
@@ -15,10 +18,6 @@ public class Translation {
             char c = (char)code;
             this.text = this.text.replace(Character.toString(c), "");
         }
-    }
-
-    public String getText() {
-        return text;
     }
 
     public List<String> toList() {

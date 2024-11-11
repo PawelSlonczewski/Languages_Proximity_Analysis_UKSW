@@ -47,6 +47,8 @@ dependencies {
     // Web driver
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.26.0'
 
+    // Algorytm
+    implementation "org.apache.commons:commons-text:${apacheCommonsText}"
 }
 
 javafx {

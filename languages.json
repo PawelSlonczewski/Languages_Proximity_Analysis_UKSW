@@ -1,12 +1,12 @@
 [
     {
-        "name": "Polish",
-        "code": "pl",
+        "name": "English",
+        "code": "en",
         "enabled": false
     },
     {
-        "name": "English",
-        "code": "en",
+        "name": "Polish",
+        "code": "pl",
         "enabled": false
     },
     {

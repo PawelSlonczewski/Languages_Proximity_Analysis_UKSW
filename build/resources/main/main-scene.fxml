@@ -54,7 +54,7 @@
                </TextArea>
             </VBox>
             <VBox fx:id="subjectBox">
-               <ListView fx:id="subjectList">
+               <ListView fx:id="subjectList" >
 
                </ListView>
             </VBox>

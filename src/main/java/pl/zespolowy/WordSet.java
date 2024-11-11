@@ -2,6 +2,8 @@ package pl.zespolowy;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 
 public class WordSet {
@@ -61,5 +63,14 @@ public class WordSet {
             System.out.println(word.getText());
         }
         System.out.println();
+    }
+
+    public void initLanguages(String title, String path) {
+        try {
+            String content = Files.readString(Paths.get(path));
+            LanguageSet languageSet = new LanguageSet(title, content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

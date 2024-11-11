@@ -1,5 +1,8 @@
 package pl.zespolowy;
 
+import lombok.ToString;
+
+@ToString(of = {"name", "code", "enabled"})
 public class Language {
     private String name;
     private String code;

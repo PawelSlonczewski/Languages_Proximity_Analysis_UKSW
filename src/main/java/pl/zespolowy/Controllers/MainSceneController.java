@@ -43,15 +43,15 @@ public class MainSceneController {
 
         String rootPath = System.getProperty("user.dir");
 
-        String languagesPath = rootPath + "/languages.json";
-        initLanguages("set1", languagesPath);
-        languageSet.print();
-
-        String wordSetPath = rootPath + "/wordsets/";
-        initWordSets(wordSetPath);
-        for (String key : wordSets.keySet()) {
-            wordSets.get(key).print();
-        }
+//        String languagesPath = rootPath + "/languages.json";
+//        initLanguages("set1", languagesPath);
+//        languageSet.print();
+//
+//        String wordSetPath = rootPath + "/wordsets/";
+//        initWordSets(wordSetPath);
+//        for (String key : wordSets.keySet()) {
+//            wordSets.get(key).print();
+//        }
 
     }
 
@@ -70,8 +70,6 @@ public class MainSceneController {
 
     public void initWordSets(String path) {
         wordSets = new HashMap<>();
-
-
 
         File dir = new File(path);
         if (dir.exists() && dir.isDirectory()) {

@@ -1,5 +1,6 @@
 package pl.zespolowy;
 
+import lombok.Getter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,14 +8,17 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.Objects;
 
+@Getter
 public class Translator {
-    private final WebDriver driver;
+    private WebDriver driver;
 
     public Translator() {
+        initDriver();
+    }
+
+    public void initDriver() {
         ChromeOptions options = new ChromeOptions();
-
         options.addArguments("no-sandbox", "headless");
-
         driver = new ChromeDriver(options);
     }
 
@@ -39,5 +43,18 @@ public class Translator {
             } catch (Exception e) {}
         }
 
+    }
+
+    public void refreshDriver() {
+        if (driver != null) {
+            driver.quit();
+        }
+        initDriver();
+    }
+
+    public void closeDriver() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }

@@ -1,15 +1,30 @@
 package pl.zespolowy;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
+@Getter
+@Setter
 public class WordSet {
     private String title;
     private List<Word> words;
     private boolean enabled;
+
+    public WordSet(String title) {
+        this.title = title;
+        this.enabled = false;
+    }
+    public WordSet(String title, List<Word> words) {
+        this.title = title;
+        this.words = words;
+        this.enabled = false;
+    }
 
     public WordSet(String title, String jsonString) {
         this.title = title;

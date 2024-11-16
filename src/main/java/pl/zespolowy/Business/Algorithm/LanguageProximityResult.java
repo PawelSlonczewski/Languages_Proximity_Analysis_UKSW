@@ -31,10 +31,21 @@ public class LanguageProximityResult {
         numberOfWordsToNormalization.set(0);
     }
 
+    /**
+     *
+     * @param language1
+     * @param language2
+     * @return String
+     */
     public String setNameAbbreviation(Language language1, Language language2) {
         return language1.getCode() + language2.getCode();
     }
 
+    /**
+     *
+     * @param proximity
+     * @param anotherNumber
+     */
     public void countedProximityAndNumberOfWordsToNormalizationIncrease(Integer proximity, Integer anotherNumber) {
         while (true) {
             if (!tryLock(lock1, 1000)) {

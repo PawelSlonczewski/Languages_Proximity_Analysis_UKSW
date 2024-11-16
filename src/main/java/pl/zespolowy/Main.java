@@ -6,8 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 import javafx.stage.Stage;
-import pl.zespolowy.Business.Algorithm.LanguageTranslationAndSimilarityCalculator;
-import pl.zespolowy.Business.Algorithm.LanguageProximityResult;
+import pl.zespolowy.Business.Algorithm.*;
 import pl.zespolowy.Controllers.MainSceneController;
 
 import java.io.IOException;
@@ -38,13 +37,21 @@ public class Main extends Application {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        LanguageTranslationAndSimilarityCalculator languageProximity = new LanguageTranslationAndSimilarityCalculator();
+        WordSetsTranslation wst = new WordSetsTranslation();
+        WordSetsRegrouper wordSetsRegroup = new WordSetsRegrouper(wst);
+        wordSetsRegroup.regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords();
+        LanguageTranslationAndSimilarityCalculator languageProximity = new LanguageTranslationAndSimilarityCalculator(wordSetsRegroup);
         languageProximity.getLanguages();
         List<Language> languageList = languageProximity.getLanguageList();
 //        Map<String, ProximityBetweenTwoLanguages> proximityBetweenTwoLanguages = languageProximity.makeSetOfProximityBetweenTwoLanguages(languageList);
         languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult(languageList);
         Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = languageProximity.getProximityBetweenTwoLanguagesMap();
         proximityBetweenTwoLanguagesMap.values().forEach(a -> System.out.println(a.toString()));
+
+//        wordSetsRegroup.regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords();
+
+
+
 
 //        Map<Language, Word> words = languageProximity.translateWordToDifferentLanguages(new Word("Apple"), languageList);
 //        words.values().stream()

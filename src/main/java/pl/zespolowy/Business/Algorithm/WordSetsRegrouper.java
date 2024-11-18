@@ -6,7 +6,6 @@ import pl.zespolowy.Language;
 import pl.zespolowy.Word;
 import pl.zespolowy.WordSet;
 
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -16,14 +15,10 @@ import java.util.stream.Collectors;
 @Setter
 public class WordSetsRegrouper {
     private final WordSetsTranslation wordSetsTranslation;
-    WordSetsReader wsr;
     Set<Map<Language, Word>> mapSet = new HashSet<>();
 
-    public WordSetsRegrouper(WordSetsTranslation wordSetsTranslation) throws IOException {
+    public WordSetsRegrouper(WordSetsTranslation wordSetsTranslation) {
         this.wordSetsTranslation = wordSetsTranslation;
-        this.wsr = new WordSetsReader("./src/main/resources/wordSets/", "fruits.json");
-        wordSetsTranslation.translateWordSetToOtherLanguage(new Language("English", "en"),   wsr.getWordSet().get());
-        wordSetsTranslation.translateWordSetToOtherLanguage(new Language("Polish", "pl"),   wsr.getWordSet().get());
     }
 
     /**
@@ -31,12 +26,23 @@ public class WordSetsRegrouper {
      */
     public void regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords() {
         Map<Language, WordSet> wordSetsInDifferentLanguages = wordSetsTranslation.getWordSetsInDifferentLanguages();
-        int size = wordSetsInDifferentLanguages.values().stream().findFirst().get().getWords().size()-1;
+        int size = findSmallestWordSet(wordSetsInDifferentLanguages);
         for (int i = 0; i < size; i++) {
             int finalI = i;
             Map<Language, Word> languageWordMap = getLanguageWordMap(wordSetsInDifferentLanguages, finalI);
             mapSet.add(languageWordMap);
         }
+    }
+
+    private static int findSmallestWordSet(Map<Language, WordSet> wordSetsInDifferentLanguages) {
+        int leastLong = 100;
+        for (var values : wordSetsInDifferentLanguages.values()) {
+            if (values.getWords().size()-1 < leastLong) {
+                leastLong = values.getWords().size()-1;
+            }
+        }
+
+        return leastLong;
     }
 
     /**

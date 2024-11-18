@@ -2,11 +2,11 @@ package pl.zespolowy.Business.Algorithm;
 
 import lombok.Getter;
 import lombok.Setter;
-import pl.zespolowy.Language;
-import pl.zespolowy.Translator;
-import pl.zespolowy.Word;
-import pl.zespolowy.WordSet;
+import pl.zespolowy.*;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -15,7 +15,25 @@ import java.util.stream.Collectors;
 @Setter
 public class WordSetsTranslation {
     private Translator translator = new Translator();
-    Map<Language, WordSet> wordSetsInDifferentLanguages = new HashMap<>();
+    private Map<Language, WordSet> wordSetsInDifferentLanguages = new HashMap<>();
+    private LanguageSet languageSet;
+    private List<Language> languageList = new ArrayList<>();
+    private final String rootPath = System.getProperty("user.dir");
+    private final String languagesPath = rootPath + "/languages.json";
+    WordSetsReader wsr;
+
+    public WordSetsTranslation() throws IOException {
+        this.wsr = new WordSetsReader("./src/main/resources/wordSets/", "fruits.json");
+        setLanguagesToUse();
+    }
+
+    /**
+     *
+     */
+    public void setLanguagesToUse() {
+        getLanguagesFromFile();
+        languageList.forEach(a -> translateWordSetToOtherLanguage(new Language(a.getName(), a.getCode()), wsr.getWordSet().get()));
+    }
 
     /**
      * @param language
@@ -46,7 +64,24 @@ public class WordSetsTranslation {
      */
     private static List<Word> stringToListOfWords(String translatedString) {
         return Arrays.stream(translatedString.split(", "))
+                .distinct()
                 .map(Word::new)
                 .toList();
     }
+
+    public void getLanguagesFromFile() {
+        initLanguages("set1", languagesPath);
+        languageList = languageSet.getLanguages();
+    }
+
+    public void initLanguages(String title, String path) {
+        try {
+            String content = Files.readString(Paths.get(path));
+            languageSet = new LanguageSet(title, content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

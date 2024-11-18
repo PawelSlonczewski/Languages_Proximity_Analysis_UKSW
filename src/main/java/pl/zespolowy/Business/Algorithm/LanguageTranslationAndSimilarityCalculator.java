@@ -4,13 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 import pl.zespolowy.Language;
-import pl.zespolowy.LanguageSet;
 import pl.zespolowy.Word;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,13 +13,9 @@ import java.util.Map;
 @Getter
 @Setter
 public final class LanguageTranslationAndSimilarityCalculator {
-    private final String rootPath = System.getProperty("user.dir");
-    private final String languagesPath = rootPath + "/languages.json";
-    private LanguageSet languageSet;
-    private List<Language> languageList = new ArrayList<>();
-    private Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = new HashMap<>();
     private LevenshteinDistance levenshteinDistance = new LevenshteinDistance();
     private WordSetsRegrouper wordSetsRegrouper;
+    private Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = new HashMap<>();
 
     public LanguageTranslationAndSimilarityCalculator(WordSetsRegrouper wordSetsRegrouper) {
         this.wordSetsRegrouper = wordSetsRegrouper;
@@ -34,11 +25,10 @@ public final class LanguageTranslationAndSimilarityCalculator {
     /**
      * obliczenie podobienstwa algorytmem levensteina pomiedzy slowem w roznych jezykach
      *
-     * @param languages
      */
-    public void countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult(List<Language> languages) {
+    public void countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult() {
         var setOfMapsHavingWordsInDifferentLanguages = wordSetsRegrouper.getMapSet();
-        var proximityBetweenTwoLanguagesMap = makeSetOfProximityBetweenTwoLanguages(languages);
+        var proximityBetweenTwoLanguagesMap = makeSetOfProximityBetweenTwoLanguages(wordSetsRegrouper.getWordSetsTranslation().getLanguageList());
 
         for (var set : setOfMapsHavingWordsInDifferentLanguages) {
             loopThroughMaps(set, proximityBetweenTwoLanguagesMap);
@@ -90,9 +80,8 @@ public final class LanguageTranslationAndSimilarityCalculator {
         }
     }
 
-
     /**
-     * @param languages
+     *
      * @return Set<ProximityBetweenTwoLanguages>
      */
     public Map<String, LanguageProximityResult> makeSetOfProximityBetweenTwoLanguages(List<Language> languages) {
@@ -103,21 +92,6 @@ public final class LanguageTranslationAndSimilarityCalculator {
         }
         return proximityBetweenTwoLanguagesMap;
     }
-
-    public void getLanguages() {
-        initLanguages("set1", languagesPath);
-        languageList = languageSet.getLanguages();
-    }
-
-    public void initLanguages(String title, String path) {
-        try {
-            String content = Files.readString(Paths.get(path));
-            languageSet = new LanguageSet(title, content);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 
 }
 

@@ -41,10 +41,10 @@ public class Main extends Application {
         WordSetsRegrouper wordSetsRegroup = new WordSetsRegrouper(wst);
         wordSetsRegroup.regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords();
         LanguageTranslationAndSimilarityCalculator languageProximity = new LanguageTranslationAndSimilarityCalculator(wordSetsRegroup);
-        languageProximity.getLanguages();
-        List<Language> languageList = languageProximity.getLanguageList();
+//        languageProximity.getLanguages();
+//        List<Language> languageList = languageProximity.getLanguageList();
 //        Map<String, ProximityBetweenTwoLanguages> proximityBetweenTwoLanguages = languageProximity.makeSetOfProximityBetweenTwoLanguages(languageList);
-        languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult(languageList);
+        languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult();
         Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = languageProximity.getProximityBetweenTwoLanguagesMap();
         proximityBetweenTwoLanguagesMap.values().forEach(a -> System.out.println(a.toString()));
 

@@ -4,22 +4,20 @@ package pl.zespolowy.Business.Algorithm;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Getter
 @RequiredArgsConstructor
 public class WordsProximityNormalizer {
-    private final LanguageTranslationAndSimilarityCalculator languageTranslationAndSimilarityCalculator;
+    private final LanguageSimilarityCalculator languageSimilarityCalculator;
     private final Set<LanguageProximityResult> resultsSet;
     private Map<LanguageProximityResult, Double> countedProximityBetweenWords = new HashMap<>();
 
-    public WordsProximityNormalizer(LanguageTranslationAndSimilarityCalculator languageTranslationAndSimilarityCalculator) {
+    public WordsProximityNormalizer(LanguageSimilarityCalculator languageSimilarityCalculator) {
 
-        this.languageTranslationAndSimilarityCalculator = languageTranslationAndSimilarityCalculator;
-        this.resultsSet = (Set<LanguageProximityResult>) languageTranslationAndSimilarityCalculator.getProximityBetweenTwoLanguagesMap().values();
+        this.languageSimilarityCalculator = languageSimilarityCalculator;
+        resultsSet = new HashSet<>(languageSimilarityCalculator.getProximityBetweenTwoLanguagesMap().values());
         countedProximityBetweenWords = normalizationBetweenWords();
     }
 

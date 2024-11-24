@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Setter
 public class WordSetsTranslation {
     private Translator translator = new Translator();
-    private Map<Language, WordSet> wordSetsInDifferentLanguages = new HashMap<>();
+    private Map<String, Map<Language, WordSet>> setMapOfKeyStringAndValueMapLanguageWordSet = new HashMap<>();
     private LanguageSet languageSet;
     private List<Language> languageList = new ArrayList<>();
     private final String rootPath = System.getProperty("user.dir");
@@ -23,24 +23,38 @@ public class WordSetsTranslation {
     WordSetsReader wsr;
 
     public WordSetsTranslation() throws IOException {
-        this.wsr = new WordSetsReader("./src/main/resources/wordSets/", "fruits.json");
-        setLanguagesToUse();
+        this.wsr = new WordSetsReader("./src/main/resources/wordSets/");
+        setMapOfKeyStringAndValueMapLanguageWordSet();
+    }
+
+    /**
+     *
+      */
+    public void setMapOfKeyStringAndValueMapLanguageWordSet() {
+        setMapOfKeyStringAndValueMapLanguageWordSet = wsr.getWordSets().entrySet().stream()
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        v -> setLanguagesToUse(v.getValue())
+        ));
     }
 
     /**
      *
      */
-    public void setLanguagesToUse() {
+    public Map<Language, WordSet> setLanguagesToUse(WordSet wordSet) {
+        Map<Language, WordSet> wordSetsInDifferentLanguages = new HashMap<>();
         getLanguagesFromFile();
-        languageList.forEach(a -> translateWordSetToOtherLanguage(new Language(a.getName(), a.getCode()), wsr.getWordSet().get()));
+        languageList.forEach(a -> translateWordSetToOtherLanguage(wordSetsInDifferentLanguages, new Language(a.getName(), a.getCode()), wordSet));
+        translator.refreshDriver();
+        return wordSetsInDifferentLanguages;
     }
 
     /**
      * @param language
-     * @param wordSet  return
+     * @param wordSet
      * @return
      */
-    public void translateWordSetToOtherLanguage(Language language, WordSet wordSet) {
+    public void translateWordSetToOtherLanguage(Map<Language, WordSet> wordSetsInDifferentLanguages, Language language, WordSet wordSet) {
         String joinedString = wordsListToString(wordSet);
         String translatedString = translator.translate(joinedString, "en", language.getCode()).getText();
         wordSetsInDifferentLanguages.put(language, new WordSet(wordSet.getTitle(), stringToListOfWords(translatedString)));

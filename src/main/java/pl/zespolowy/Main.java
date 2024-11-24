@@ -10,7 +10,6 @@ import pl.zespolowy.Business.Algorithm.*;
 import pl.zespolowy.Controllers.MainSceneController;
 
 import java.io.IOException;
-import java.util.List;
 import java.util.Map;
 
 public class Main extends Application {
@@ -39,24 +38,13 @@ public class Main extends Application {
 
         WordSetsTranslation wst = new WordSetsTranslation();
         WordSetsRegrouper wordSetsRegroup = new WordSetsRegrouper(wst);
-        wordSetsRegroup.regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords();
-        LanguageTranslationAndSimilarityCalculator languageProximity = new LanguageTranslationAndSimilarityCalculator(wordSetsRegroup);
-//        languageProximity.getLanguages();
-//        List<Language> languageList = languageProximity.getLanguageList();
-//        Map<String, ProximityBetweenTwoLanguages> proximityBetweenTwoLanguages = languageProximity.makeSetOfProximityBetweenTwoLanguages(languageList);
+        LanguageSimilarityCalculator languageProximity = new LanguageSimilarityCalculator(wordSetsRegroup);
         languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult();
-        Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = languageProximity.getProximityBetweenTwoLanguagesMap();
-        proximityBetweenTwoLanguagesMap.values().forEach(a -> System.out.println(a.toString()));
+        WordsProximityNormalizer wordsProximityNormalizer = new WordsProximityNormalizer(languageProximity);
+        System.out.println(wordsProximityNormalizer.getCountedProximityBetweenWords());
+//        Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = languageProximity.getProximityBetweenTwoLanguagesMap();
+//        proximityBetweenTwoLanguagesMap.values().forEach(a -> System.out.println(a.toString()));
 
-//        wordSetsRegroup.regroupMapsOfLanguageAndWordSetsToSetOfMapsOfLanguageAndWords();
-
-
-
-
-//        Map<Language, Word> words = languageProximity.translateWordToDifferentLanguages(new Word("Apple"), languageList);
-//        words.values().stream()
-//                .map(Word::getText)
-//                .forEach(System.out::println);
 
 
         //String result = translator.translate("dupa", "pl", "en");

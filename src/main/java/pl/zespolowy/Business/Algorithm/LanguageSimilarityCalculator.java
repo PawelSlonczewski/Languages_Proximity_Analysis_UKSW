@@ -12,27 +12,27 @@ import java.util.Map;
 
 @Getter
 @Setter
-public final class LanguageTranslationAndSimilarityCalculator {
+public final class LanguageSimilarityCalculator {
     private LevenshteinDistance levenshteinDistance = new LevenshteinDistance();
     private WordSetsRegrouper wordSetsRegrouper;
     private Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = new HashMap<>();
 
-    public LanguageTranslationAndSimilarityCalculator(WordSetsRegrouper wordSetsRegrouper) {
+    public LanguageSimilarityCalculator(WordSetsRegrouper wordSetsRegrouper) {
         this.wordSetsRegrouper = wordSetsRegrouper;
     }
-
 
     /**
      * obliczenie podobienstwa algorytmem levensteina pomiedzy slowem w roznych jezykach
      *
      */
     public void countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult() {
-        var setOfMapsHavingWordsInDifferentLanguages = wordSetsRegrouper.getMapSet();
+        var mapOfTopics = wordSetsRegrouper.getRegruopedMap();
         var proximityBetweenTwoLanguagesMap = makeSetOfProximityBetweenTwoLanguages(wordSetsRegrouper.getWordSetsTranslation().getLanguageList());
 
-        for (var set : setOfMapsHavingWordsInDifferentLanguages) {
-            loopThroughMaps(set, proximityBetweenTwoLanguagesMap);
-        }
+        for (var map : mapOfTopics.values())
+            for (var set : map) {
+                loopThroughMaps(set, proximityBetweenTwoLanguagesMap);
+            }
     }
 
     /**

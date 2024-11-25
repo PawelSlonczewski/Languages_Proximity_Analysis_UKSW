@@ -2,30 +2,33 @@ package pl.zespolowy.Business.Algorithm;
 
 
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Getter
-@RequiredArgsConstructor
 public class WordsProximityNormalizer {
     private final LanguageSimilarityCalculator languageSimilarityCalculator;
-    private final Set<LanguageProximityResult> resultsSet;
-    private Map<LanguageProximityResult, Double> countedProximityBetweenWords = new HashMap<>();
+    private final Map<String, Map<Map<LanguageProximityResult, Double>, Double>> countedProximityBetweenWords = new HashMap<>();
 
     public WordsProximityNormalizer(LanguageSimilarityCalculator languageSimilarityCalculator) {
-
         this.languageSimilarityCalculator = languageSimilarityCalculator;
-        resultsSet = new HashSet<>(languageSimilarityCalculator.getProximityBetweenTwoLanguagesMap().values());
-        countedProximityBetweenWords = normalizationBetweenWords();
+        unpackMapOfTopics();
     }
 
-    /**
-     * na razie skupiamy sie na jezykach -> tematy nie zmieniaja nic poza wieksza iloscia slow
-     */
-    public Map<LanguageProximityResult, Double> normalizationBetweenWords() {
-        return countedProximityBetweenWords = resultsSet.stream()
+    public void unpackMapOfTopics() {
+        var mapOfTopics = languageSimilarityCalculator.getProximityBetweenTwoLanguagesMapByTopic();
+        for (var map : mapOfTopics.entrySet()) {
+            String topicKey = map.getKey();
+            Map<String, LanguageProximityResult> innerMap = map.getValue();
+            Map<Map<LanguageProximityResult, Double>, Double> mapOfMaps = normalizationBetweenWords(innerMap);
+
+            countedProximityBetweenWords.put(topicKey, mapOfMaps);
+        }
+    }
+    public Map<Map<LanguageProximityResult, Double>, Double> normalizationBetweenWords(Map<String, LanguageProximityResult> resultMap) {
+        Map<LanguageProximityResult, Double> innerMap = resultMap.values().stream()
                 .collect(Collectors.toMap(
                         lpr -> lpr,
                         lpr -> {
@@ -34,7 +37,14 @@ public class WordsProximityNormalizer {
                             return val1 / val2;
                         }
                 ));
+        double sum = innerMap.values().stream()
+                .mapToDouble(Double::doubleValue)
+                .sum();
+        double average = innerMap.isEmpty() ? 0.0 : sum / innerMap.size();
+
+        Map<Map<LanguageProximityResult, Double>, Double> result = new HashMap<>();
+        result.put(innerMap, average);
+
+        return result;
     }
-
-
 }

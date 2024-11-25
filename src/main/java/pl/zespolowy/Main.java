@@ -42,8 +42,8 @@ public class Main extends Application {
         languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult();
         WordsProximityNormalizer wordsProximityNormalizer = new WordsProximityNormalizer(languageProximity);
         System.out.println(wordsProximityNormalizer.getCountedProximityBetweenWords());
-//        Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = languageProximity.getProximityBetweenTwoLanguagesMap();
-//        proximityBetweenTwoLanguagesMap.values().forEach(a -> System.out.println(a.toString()));
+//        Map<String, Map<String, LanguageProximityResult>> proximityBetweenTwoLanguagesMapByTopic = languageProximity.getProximityBetweenTwoLanguagesMapByTopic();
+//        proximityBetweenTwoLanguagesMapByTopic.entrySet().forEach(a -> System.out.println(a.toString()));
 
 
 

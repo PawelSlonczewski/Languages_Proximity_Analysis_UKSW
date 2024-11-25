@@ -15,7 +15,7 @@ import java.util.Map;
 public final class LanguageSimilarityCalculator {
     private LevenshteinDistance levenshteinDistance = new LevenshteinDistance();
     private WordSetsRegrouper wordSetsRegrouper;
-    private Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap = new HashMap<>();
+    private Map<String, Map<String, LanguageProximityResult>> proximityBetweenTwoLanguagesMapByTopic = new HashMap<>();
 
     public LanguageSimilarityCalculator(WordSetsRegrouper wordSetsRegrouper) {
         this.wordSetsRegrouper = wordSetsRegrouper;
@@ -27,12 +27,15 @@ public final class LanguageSimilarityCalculator {
      */
     public void countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult() {
         var mapOfTopics = wordSetsRegrouper.getRegruopedMap();
-        var proximityBetweenTwoLanguagesMap = makeSetOfProximityBetweenTwoLanguages(wordSetsRegrouper.getWordSetsTranslation().getLanguageList());
+        Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap;
 
-        for (var map : mapOfTopics.values())
-            for (var set : map) {
+        for (var map : mapOfTopics.entrySet()) {
+            proximityBetweenTwoLanguagesMap = makeSetOfProximityBetweenTwoLanguages(wordSetsRegrouper.getWordSetsTranslation().getLanguageList());
+            for (var set : map.getValue()) {
                 loopThroughMaps(set, proximityBetweenTwoLanguagesMap);
             }
+            proximityBetweenTwoLanguagesMapByTopic.put(map.getKey(), proximityBetweenTwoLanguagesMap);
+        }
     }
 
     /**
@@ -85,13 +88,13 @@ public final class LanguageSimilarityCalculator {
      * @return Set<ProximityBetweenTwoLanguages>
      */
     public Map<String, LanguageProximityResult> makeSetOfProximityBetweenTwoLanguages(List<Language> languages) {
+        Map<String, LanguageProximityResult> map = new HashMap<>();
         for (int i = 0; i < languages.size(); i++) {
             for (int j = i + 1; j < languages.size(); j++) {
-                proximityBetweenTwoLanguagesMap.put(languages.get(i).getCode() + languages.get(j).getCode(), new LanguageProximityResult(languages.get(i), languages.get(j)));
+                map.put(languages.get(i).getCode() + languages.get(j).getCode(), new LanguageProximityResult(languages.get(i), languages.get(j)));
             }
         }
-        return proximityBetweenTwoLanguagesMap;
+        return map;
     }
-
 }
 

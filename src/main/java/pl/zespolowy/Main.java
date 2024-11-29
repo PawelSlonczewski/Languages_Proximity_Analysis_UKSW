@@ -40,8 +40,9 @@ public class Main extends Application {
         WordSetsRegrouper wordSetsRegroup = new WordSetsRegrouper(wst);
         LanguageSimilarityCalculator languageProximity = new LanguageSimilarityCalculator(wordSetsRegroup);
         languageProximity.countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult();
-        WordsProximityNormalizer wordsProximityNormalizer = new WordsProximityNormalizer(languageProximity);
-        System.out.println(wordsProximityNormalizer.getCountedProximityBetweenWords());
+        WordsProximityNormalizer wordsProximityNormalizer = new WordsProximityNormalizer(languageProximity, wst);
+        ProximityResultJSONExporter proximityResultJSONExporter = new ProximityResultJSONExporter(wordsProximityNormalizer);
+        proximityResultJSONExporter.createJson();
 //        Map<String, Map<String, LanguageProximityResult>> proximityBetweenTwoLanguagesMapByTopic = languageProximity.getProximityBetweenTwoLanguagesMapByTopic();
 //        proximityBetweenTwoLanguagesMapByTopic.entrySet().forEach(a -> System.out.println(a.toString()));
 

@@ -26,6 +26,7 @@ public final class LanguageSimilarityCalculator {
      *
      */
     public void countingProximityForWordInDifferentLanguagesAndPuttingResultToLanguageProximityResult() {
+        // mapa (ktora przechowuje 1 set (podzielony na rozne slowa) map ktore maja pary jezyk słowo w tym jezyku (to samo slowo)) pogrupowana po tematach
         var mapOfTopics = wordSetsRegrouper.getRegruopedMap();
         Map<String, LanguageProximityResult> proximityBetweenTwoLanguagesMap;
 

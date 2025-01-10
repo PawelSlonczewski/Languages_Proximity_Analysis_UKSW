@@ -36,6 +36,7 @@ public class WordSetsRegrouper {
     public Set<Map<Language, Word>> regroupGivenMapsToSetOfMapsOfLanguageAndWords(Map<Language, WordSet> wordSetsInDifferentLanguages) {
         Set<Map<Language, Word>> mapSet = new HashSet<>();
         int size = findSmallestWordSet(wordSetsInDifferentLanguages);
+        // przechodzę po każdym wordsecie w różnych językach i biorę np. pierwsze słowo z każdego języka czyli to samo słowo i robie z tego mape jezyk słowo w tym jezyku
         for (int i = 0; i < size; i++) {
             int finalI = i;
             Map<Language, Word> languageWordMap = getLanguageWordMap(wordSetsInDifferentLanguages, finalI);

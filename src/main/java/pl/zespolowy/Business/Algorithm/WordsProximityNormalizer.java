@@ -4,15 +4,13 @@ package pl.zespolowy.Business.Algorithm;
 import lombok.Getter;
 import pl.zespolowy.Language;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Getter
 public class WordsProximityNormalizer {
     private final LanguageSimilarityCalculator languageSimilarityCalculator;
-    private final Map<String, Map<Map<LanguageProximityResult, Double>, Double>> countedProximityBetweenWords = new HashMap<>();
+    private final Map<String, Map<LanguageProximityResult, Double>> countedProximityBetweenWords = new HashMap<>();
     private final Map<String, Map<Language, Map<Language, Double>>> mapPreparedForJson = new HashMap<>();
     private final WordSetsTranslation wordSetsTranslation;
 
@@ -28,15 +26,13 @@ public class WordsProximityNormalizer {
 
         for (var topic : countedProximityBetweenWords.entrySet()) {
             String key = topic.getKey();
-            Map<Map<LanguageProximityResult, Double>, Double> value = topic.getValue();
+            Map<LanguageProximityResult, Double> mapsOfLPR = topic.getValue();
 
-            Map<LanguageProximityResult, Double> mapsOfLPR = value.keySet().iterator().next();
             Map<Language, Map<Language, Double>> languageResultMap = languageList.stream().collect(Collectors.toMap(language -> language, language -> new HashMap<>()));
 
             for (var entry : mapsOfLPR.entrySet()) {
                 LanguageProximityResult key1 = entry.getKey();
                 Double newVal = entry.getValue();
-
 
                 Map<Language, Double> language1Map = languageResultMap.computeIfAbsent(key1.getLanguage2(), k -> new HashMap<>());
                 language1Map.merge(key1.getLanguage1(), newVal, Double::sum);
@@ -58,7 +54,7 @@ public class WordsProximityNormalizer {
             countedProximityBetweenWords.put(topicKey, mapOfMaps);
         }
     }
-    public Map<Map<LanguageProximityResult, Double>, Double> normalizationBetweenWords(Map<String, LanguageProximityResult> resultMap) {
+    public Map<LanguageProximityResult, Double> normalizationBetweenWords(Map<String, LanguageProximityResult> resultMap) {
         var innerMap = resultMap.values().stream()
                 .collect(Collectors.toMap(
                         lpr -> lpr,
@@ -68,14 +64,37 @@ public class WordsProximityNormalizer {
                             return val1 / val2;
                         }
                 ));
-        double sum = innerMap.values().stream()
-                .mapToDouble(Double::doubleValue)
-                .sum();
-        double average = innerMap.isEmpty() ? 0.0 : sum / innerMap.size();
+        // normalizacja ze wzoru (xi - xmin)/(xmax - xmin)
+        Double xmax = findMaxValue(innerMap.values());
+        Double xmin = findMinValue(innerMap.values());
+        System.out.println("xmax: " + xmax + ", xmin: " + xmin);
 
-        Map<Map<LanguageProximityResult, Double>, Double> result = new HashMap<>();
-        result.put(innerMap, average);
+        innerMap = innerMap.entrySet().stream()
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        v -> normalize(v.getValue(), xmax, xmin)
+                ));
 
-        return result;
+
+        return innerMap;
+    }
+
+    private Double normalize(Double value, Double xmax, Double xmin) {
+        return (value - xmin)/(xmax - xmin);
+    }
+
+    private Double findMaxValue(Collection<Double> results) {
+        Double maxVal = Double.valueOf(-1);
+        for (var val : results) {
+            if (maxVal < val) maxVal = val;
+        }
+        return maxVal;
+    }
+    private Double findMinValue(Collection<Double> results) {
+        Double minVal = Double.valueOf(1000);
+        for (var val : results) {
+            if (minVal > val) minVal = val;
+        }
+        return minVal;
     }
 }

@@ -1,198 +1,206 @@
 [
     {
-        "text": "Apple",
+        "text": "one",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "two",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "three",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "four",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "five",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "six",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "seven",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "eight",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "nine",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "ten",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "eleven",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "twelve",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "thirteen",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "fourteen",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "fifteen",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "sixteen",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "seventeen",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "eighteen",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "nineteen",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "twenty",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "twenty-one",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "twenty-two",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "twenty-three",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "twenty-four",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "twenty-five",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "twenty-six",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "twenty-seven",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "twenty-eight",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "twenty-nine",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "thirty",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "sixty-nine",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "four hundred twenty",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "two thousand one hundred thirty-seven",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "six hundred ninety",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "sixty-nine thousand four hundred twenty",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "sixty-nine thousand two hundred thirty-seven",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "four milion two hundred two thousand one hundred thirty-seven",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "seven thousand three hundred twelve",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "forty-two",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "one hundred",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "one thousand",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "five thousand",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "ten thousand",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "twenty thousand",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "fifty thousand",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "one million",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "twelve hundred",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "thirty-three",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "ninety-nine",
+        "enabled": true
+    },
+    {
+        "text": "seven hundred seventy-seven",
+        "enabled": true
+    },
+    {
+        "text": "eighty-eight",
         "enabled": true
     }
 ]

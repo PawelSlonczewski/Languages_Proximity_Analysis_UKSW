@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "Metro",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Subway",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Bus",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Tram",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Trolleybus",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Train",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Monorail",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "High-Speed Rail",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Ferry",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Cable Car",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Gondola",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Taxi",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Ride-Sharing",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Bike Share",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Scooter Share",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Airplane",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Bullet Train",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Commuter Rail",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Regional Rail",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Intercity Bus",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Airport Shuttle",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Cruise Ship",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Car Rental",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Funicular",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Hovercraft",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Light Rail",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Maglev",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Shuttle Bus",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Vanpool",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Electric Scooter",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Pedicab",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Minibus",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Motorbike Taxi",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Water Taxi",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Shared Van",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Auto Rickshaw",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Tuk-tuk",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Cart",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Horse Carriage",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Segway",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Autonomous Vehicle",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Zip Line",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Walking Paths",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Pipeline Transport",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Cargo Ship",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Yacht Charter",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Private Jet",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Helicopter Taxi",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Hyperloop",
+        "enabled": true
+    },
+    {
+        "text": "Cargo Bike",
         "enabled": true
     }
 ]

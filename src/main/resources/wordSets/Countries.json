@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "United States",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Canada",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Mexico",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Brazil",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Argentina",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "United Kingdom",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Germany",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "France",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Italy",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Spain",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Russia",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "China",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Japan",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "South Korea",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "India",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Australia",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "New Zealand",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "South Africa",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Egypt",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Nigeria",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Kenya",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Turkey",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Saudi Arabia",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "United Arab Emirates",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Israel",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Thailand",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Vietnam",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Indonesia",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Philippines",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Malaysia",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Singapore",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Pakistan",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Bangladesh",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Sri Lanka",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Nepal",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Switzerland",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Sweden",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Norway",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Denmark",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Finland",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Netherlands",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Belgium",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Austria",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Poland",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Czech Republic",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Portugal",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Greece",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Hungary",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Romania",
+        "enabled": true
+    },
+    {
+        "text": "Ukraine",
         "enabled": true
     }
 ]

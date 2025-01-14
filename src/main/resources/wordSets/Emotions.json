@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "happy",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "sad",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "angry",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "excited",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "fearful",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "hopeful",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "anxious",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "grateful",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "proud",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "lonely",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "confident",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "surprised",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "jealous",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "curious",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "relieved",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "disappointed",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "ashamed",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "guilty",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "embarrassed",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "content",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "bored",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "overwhelmed",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "nervous",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "trusting",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "loving",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "hopeful",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "resentful",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "optimistic",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "inspired",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "peaceful",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "frustrated",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "hurt",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "confused",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "doubtful",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "empathetic",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "joyful",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "sympathetic",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "humiliated",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "envious",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "calm",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "shy",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "insecure",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "determined",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "amused",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "angst",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "ecstatic",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "miserable",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "panicked",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "apathetic",
+        "enabled": true
+    },
+    {
+        "text": "worried",
         "enabled": true
     }
 ]

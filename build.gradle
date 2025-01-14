@@ -45,15 +45,22 @@ dependencies {
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
 
     // Web driver
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.26.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.27.0'
 
     // Algorytm
     implementation "org.apache.commons:commons-text:${apacheCommonsText}"
+
+    // GS-Core
+    implementation group: 'org.graphstream', name: 'gs-core', version: '2.0'
+
+    // GS-UI JavaFX
+    implementation group: 'org.graphstream', name: 'gs-ui-javafx', version: '2.0'
+
 }
 
 javafx {
     version = "${javafxVersion}"
-    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics']
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.swing']
 }
 
 application {

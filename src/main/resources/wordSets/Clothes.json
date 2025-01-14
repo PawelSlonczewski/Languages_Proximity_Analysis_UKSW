@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "T-shirt",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Jeans",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Jacket",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Sweater",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Shirt",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Blouse",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Skirt",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Dress",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Shorts",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Pants",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Socks",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Hat",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Scarf",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Gloves",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Belt",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Shoes",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Sneakers",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Boots",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Sandals",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Coat",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Underwear",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Bra",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Boxers",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Cap",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Vest",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Cardigan",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Tank top",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Pajamas",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Leggings",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Overalls",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Tracksuit",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Blazer",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Tie",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Bow tie",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Hoodie",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Raincoat",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Bathrobe",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Swimsuit",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Bikini",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Tights",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Kimono",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Poncho",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Shawl",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Camisole",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Lingerie",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Suit",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Pocket square",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Suspenders",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Glasses",
+        "enabled": true
+    },
+    {
+        "text": "Mittens",
         "enabled": true
     }
 ]

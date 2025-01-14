@@ -1,198 +1,198 @@
 [
     {
-        "text": "Apple",
+        "text": "head",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "hair",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "eye",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "ear",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "nose",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "mouth",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "tooth",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "tongue",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "neck",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "shoulder",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "arm",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "elbow",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "wrist",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "hand",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "finger",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "thumb",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "chest",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "back",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "stomach",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "waist",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "hip",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "leg",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "knee",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "ankle",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "foot",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "toe",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "heel",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "skin",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "bone",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "muscle",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "heart",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "lung",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "brain",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "throat",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "cheek",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "chin",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "forehead",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "lip",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "eyebrow",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "eyelash",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "jaw",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "palm",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "nail",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "armpit",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "spine",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "rib",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "liver",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "kidney",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "elbow",
         "enabled": true
     }
 ]

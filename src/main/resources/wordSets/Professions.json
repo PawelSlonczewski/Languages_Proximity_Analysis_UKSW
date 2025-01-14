@@ -1,198 +1,198 @@
 [
     {
-        "text": "Apple",
+        "text": "Doctor",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Teacher",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Engineer",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Nurse",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Accountant",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Artist",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Lawyer",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Scientist",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Chef",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Pharmacist",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Mechanic",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Architect",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Dentist",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Journalist",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Librarian",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Pilot",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Veterinarian",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Translator",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Plumber",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Electrician",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Carpenter",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Firefighter",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Police Officer",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Farmer",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Psychologist",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Graphic Designer",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Software Developer",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Data Analyst",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Social Worker",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Athlete",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Actor",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Musician",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Photographer",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Chef",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Bartender",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Salesperson",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Hairdresser",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Massage Therapist",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Taxi Driver",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Receptionist",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Event Planner",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Flight Attendant",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Real Estate Agent",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Marketing Specialist",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Courier",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Paralegal",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Entrepreneur",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Scientist",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Economist",
         "enabled": true
     }
 ]

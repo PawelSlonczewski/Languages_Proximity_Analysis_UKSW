@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "Sofa",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Chair",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Table",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Bed",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Cabinet",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Bookshelf",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Couch",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Desk",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Armchair",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Dresser",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Recliner",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Ottoman",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Nightstand",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Wardrobe",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Chest of drawers",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Sideboard",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Console table",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "TV stand",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Coffee table",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Dining table",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "End table",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Bar stool",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Lounge chair",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Hall tree",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Storage bench",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Bean bag",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Cupboard",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Filing cabinet",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Armrest",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Vanity",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Hutch",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Coat rack",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Reclining chair",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Patio furniture",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Barbecue grill",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Futon",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Bunk bed",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Loft bed",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Changing table",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Crib",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Shoe rack",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Treadmill",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Sewing table",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Desk chair",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Folding chair",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Daybed",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Folding table",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Headboard",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Footstool",
+        "enabled": true
+    },
+    {
+        "text": "Storage unit",
         "enabled": true
     }
 ]

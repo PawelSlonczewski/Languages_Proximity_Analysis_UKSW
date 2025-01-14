@@ -1,198 +1,206 @@
 [
     {
-        "text": "Apple",
+        "text": "Apartment",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Hospital",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "School",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Library",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Church",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Bank",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Hotel",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Office",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Factory",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Store",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Museum",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Theater",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Restaurant",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Café",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Stadium",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Warehouse",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Garage",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Mall",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Gym",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Arena",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Airport",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Train Station",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Subway Station",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Post Office",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Pharmacy",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Police Station",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Fire Station",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Embassy",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Court House",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Conference Center",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Convention Center",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Farmhouse",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Mansion",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Castle",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Chalet",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Bungalow",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Cottage",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Villa",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Skyscraper",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Pavilion",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Greenhouse",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Condo",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Duplex",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Townhouse",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Loft",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Cabin",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Ranch",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Apartment Complex",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Residential Building",
+        "enabled": true
+    },
+    {
+        "text": "Commercial Building",
+        "enabled": true
+    },
+    {
+        "text": "Industrial Building",
         "enabled": true
     }
 ]

@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "Pencil",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Pen",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Eraser",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Notebook",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Ruler",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Marker",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Highlighter",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Stapler",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Paper",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Scissors",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Glue",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Sharpener",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Binder",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Folder",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Calculator",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Crayons",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Colored Pencils",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Paint",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Brush",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Whiteboard",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Chalk",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Backpack",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Pencil Case",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Index Cards",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Post-it Notes",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Tape",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Compass",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Protractor",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Geometry Set",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Clipboard",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Desk Organizer",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Paper Clips",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Rubber Bands",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Sticky Notes",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Marking Tape",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Push Pins",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Push Pin Board",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Paper Cutter",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "File",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Dividers",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Folders with Tabs",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Correction Tape",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Notepad",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Flash Cards",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Bulletin Board",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "File Folder",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Drawing Paper",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Art Supplies",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Calculator Battery",
+        "enabled": true
+    },
+    {
+        "text": "Whiteboard Marker",
         "enabled": true
     }
 ]

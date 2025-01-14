@@ -1,198 +1,214 @@
 [
     {
-        "text": "Apple",
+        "text": "Cancer",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Diabetes",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Hypertension",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Asthma",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Flu",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "COVID-19",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Tuberculosis",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "HIV/AIDS",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Malaria",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Pneumonia",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Alzheimer's Disease",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Parkinson's Disease",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Epilepsy",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Arthritis",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Stroke",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Heart Disease",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Lung Cancer",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Kidney Disease",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Liver Disease",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Multiple Sclerosis",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Sickle Cell Anemia",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Cystic Fibrosis",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Psoriasis",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Schizophrenia",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Depression",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Anxiety",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Osteoporosis",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Obesity",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Tuberculosis",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Celiac Disease",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Chronic Fatigue Syndrome",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Gastritis",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Gout",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Hepatitis",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Crohn's Disease",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Irritable Bowel Syndrome",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Glaucoma",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Migraine",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Autism",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Dengue Fever",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Zika Virus",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Cholera",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Ebola",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Rabies",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Tetanus",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Chickenpox",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Measles",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Hernia",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Anemia",
+        "enabled": true
+    },
+    {
+        "text": "Gallstones",
+        "enabled": true
+    },
+    {
+        "text": "Hyperthyroidism",
+        "enabled": true
+    },
+    {
+        "text": "Hypothyroidism",
+        "enabled": true
+    },
+    {
+        "text": "Lupus",
         "enabled": true
     }
 ]

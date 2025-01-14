@@ -16,7 +16,11 @@
         "enabled": true
     },
     {
-        "text": "Spinach",
+        "text": "Garlic",
+        "enabled": true
+    },
+    {
+        "text": "Bell pepper",
         "enabled": true
     },
     {
@@ -24,11 +28,15 @@
         "enabled": true
     },
     {
-        "text": "Cabbage",
+        "text": "Lettuce",
         "enabled": true
     },
     {
-        "text": "Lettuce",
+        "text": "Spinach",
+        "enabled": true
+    },
+    {
+        "text": "Kale",
         "enabled": true
     },
     {
@@ -40,59 +48,7 @@
         "enabled": true
     },
     {
-        "text": "Bell Pepper",
-        "enabled": true
-    },
-    {
         "text": "Zucchini",
-        "enabled": true
-    },
-    {
-        "text": "Eggplant",
-        "enabled": true
-    },
-    {
-        "text": "Asparagus",
-        "enabled": true
-    },
-    {
-        "text": "Garlic",
-        "enabled": true
-    },
-    {
-        "text": "Ginger",
-        "enabled": true
-    },
-    {
-        "text": "Radish",
-        "enabled": true
-    },
-    {
-        "text": "Beetroot",
-        "enabled": true
-    },
-    {
-        "text": "Sweet Potato",
-        "enabled": true
-    },
-    {
-        "text": "Peas",
-        "enabled": true
-    },
-    {
-        "text": "Corn",
-        "enabled": true
-    },
-    {
-        "text": "Chili",
-        "enabled": true
-    },
-    {
-        "text": "Leek",
-        "enabled": true
-    },
-    {
-        "text": "Kale",
         "enabled": true
     },
     {
@@ -104,23 +60,15 @@
         "enabled": true
     },
     {
-        "text": "Brussels Sprout",
+        "text": "Sweet potato",
         "enabled": true
     },
     {
-        "text": "Artichoke",
+        "text": "Beetroot",
         "enabled": true
     },
     {
-        "text": "Fennel",
-        "enabled": true
-    },
-    {
-        "text": "Celery",
-        "enabled": true
-    },
-    {
-        "text": "Mushroom",
+        "text": "Radish",
         "enabled": true
     },
     {
@@ -128,11 +76,39 @@
         "enabled": true
     },
     {
-        "text": "Chard",
+        "text": "Celery",
         "enabled": true
     },
     {
-        "text": "Rutabaga",
+        "text": "Asparagus",
+        "enabled": true
+    },
+    {
+        "text": "Green beans",
+        "enabled": true
+    },
+    {
+        "text": "Peas",
+        "enabled": true
+    },
+    {
+        "text": "Corn",
+        "enabled": true
+    },
+    {
+        "text": "Eggplant",
+        "enabled": true
+    },
+    {
+        "text": "Cabbage",
+        "enabled": true
+    },
+    {
+        "text": "Brussels sprouts",
+        "enabled": true
+    },
+    {
+        "text": "Leek",
         "enabled": true
     },
     {
@@ -140,15 +116,23 @@
         "enabled": true
     },
     {
+        "text": "Artichoke",
+        "enabled": true
+    },
+    {
         "text": "Okra",
         "enabled": true
     },
     {
-        "text": "Bok Choy",
+        "text": "Mushrooms",
         "enabled": true
     },
     {
-        "text": "Scallion",
+        "text": "Chili peppers",
+        "enabled": true
+    },
+    {
+        "text": "Yam",
         "enabled": true
     },
     {
@@ -156,7 +140,31 @@
         "enabled": true
     },
     {
+        "text": "Swiss chard",
+        "enabled": true
+    },
+    {
+        "text": "Chinese cabbage",
+        "enabled": true
+    },
+    {
+        "text": "Fennel",
+        "enabled": true
+    },
+    {
+        "text": "Rhubarb",
+        "enabled": true
+    },
+    {
         "text": "Shallot",
+        "enabled": true
+    },
+    {
+        "text": "Green onion",
+        "enabled": true
+    },
+    {
+        "text": "Horseradish",
         "enabled": true
     },
     {
@@ -168,19 +176,19 @@
         "enabled": true
     },
     {
-        "text": "Collard Greens",
+        "text": "Kohlrabi",
         "enabled": true
     },
     {
-        "text": "Mustard Greens",
+        "text": "White radish",
         "enabled": true
     },
     {
-        "text": "Dandelion Greens",
+        "text": "Cassava",
         "enabled": true
     },
     {
-        "text": "Alfalfa",
+        "text": "Bitter melon",
         "enabled": true
     },
     {
@@ -188,15 +196,7 @@
         "enabled": true
     },
     {
-        "text": "Chayote",
-        "enabled": true
-    },
-    {
-        "text": "Yam",
-        "enabled": true
-    },
-    {
-        "text": "Kohlrabi",
+        "text": "Jicama",
         "enabled": true
     }
 ]

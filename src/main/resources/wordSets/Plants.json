@@ -1,134 +1,186 @@
 [
     {
-        "text": "Apple",
+        "text": "Rose",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Tulip",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Sunflower",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Lily",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Daisy",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Orchid",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Jasmine",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Lavender",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Poppy",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Marigold",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Daffodil",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Hibiscus",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Chrysanthemum",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Iris",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Violet",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Begonia",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Camellia",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Peony",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Carnation",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Gladiolus",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Petunia",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Azalea",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Hydrangea",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Geranium",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Dahlia",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Cactus",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Aloe",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Bamboo",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Fern",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Bonsai",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Palm",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Ivy",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Moss",
+        "enabled": true
+    },
+    {
+        "text": "Clover",
+        "enabled": true
+    },
+    {
+        "text": "Mint",
+        "enabled": true
+    },
+    {
+        "text": "Basil",
+        "enabled": true
+    },
+    {
+        "text": "Rosemary",
+        "enabled": true
+    },
+    {
+        "text": "Thyme",
+        "enabled": true
+    },
+    {
+        "text": "Cilantro",
+        "enabled": true
+    },
+    {
+        "text": "Parsley",
+        "enabled": true
+    },
+    {
+        "text": "Sage",
+        "enabled": true
+    },
+    {
+        "text": "Dill",
+        "enabled": true
+    },
+    {
+        "text": "Fennel",
+        "enabled": true
+    },
+    {
+        "text": "Spinach",
+        "enabled": true
+    },
+    {
+        "text": "Kale",
+        "enabled": true
+    },
+    {
+        "text": "Lettuce",
         "enabled": true
     },
     {
@@ -136,63 +188,15 @@
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Potato",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Corn",
         "enabled": true
     },
     {
-        "text": "Mulberry",
-        "enabled": true
-    },
-    {
-        "text": "Cranberry",
-        "enabled": true
-    },
-    {
-        "text": "Starfruit",
-        "enabled": true
-    },
-    {
-        "text": "Longan",
-        "enabled": true
-    },
-    {
-        "text": "Soursop",
-        "enabled": true
-    },
-    {
-        "text": "Mandarin",
-        "enabled": true
-    },
-    {
-        "text": "Elderberry",
-        "enabled": true
-    },
-    {
-        "text": "Gooseberry",
-        "enabled": true
-    },
-    {
-        "text": "Acerola",
-        "enabled": true
-    },
-    {
-        "text": "Pomelo",
-        "enabled": true
-    },
-    {
-        "text": "Loquat",
-        "enabled": true
-    },
-    {
-        "text": "Rambutan",
-        "enabled": true
-    },
-    {
-        "text": "Custard apple",
+        "text": "Pumpkin",
         "enabled": true
     }
 ]

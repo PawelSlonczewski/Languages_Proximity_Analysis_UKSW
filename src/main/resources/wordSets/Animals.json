@@ -1,198 +1,202 @@
 [
     {
-        "text": "Apple",
+        "text": "Dog",
         "enabled": true
     },
     {
-        "text": "Banana",
+        "text": "Cat",
         "enabled": true
     },
     {
-        "text": "Orange",
+        "text": "Elephant",
         "enabled": true
     },
     {
-        "text": "Strawberry",
+        "text": "Tiger",
         "enabled": true
     },
     {
-        "text": "Grape",
+        "text": "Lion",
         "enabled": true
     },
     {
-        "text": "Mango",
+        "text": "Monkey",
         "enabled": true
     },
     {
-        "text": "Pear",
+        "text": "Bear",
         "enabled": true
     },
     {
-        "text": "Pineapple",
+        "text": "Wolf",
         "enabled": true
     },
     {
-        "text": "Peach",
+        "text": "Fox",
         "enabled": true
     },
     {
-        "text": "Lemon",
+        "text": "Horse",
         "enabled": true
     },
     {
-        "text": "Watermelon",
+        "text": "Rabbit",
         "enabled": true
     },
     {
-        "text": "Kiwi",
+        "text": "Deer",
         "enabled": true
     },
     {
-        "text": "Cherry",
+        "text": "Kangaroo",
         "enabled": true
     },
     {
-        "text": "Apricot",
+        "text": "Panda",
         "enabled": true
     },
     {
-        "text": "Plum",
+        "text": "Zebra",
         "enabled": true
     },
     {
-        "text": "Pomegranate",
+        "text": "Giraffe",
         "enabled": true
     },
     {
-        "text": "Raspberry",
+        "text": "Hippopotamus",
         "enabled": true
     },
     {
-        "text": "Blackberry",
+        "text": "Rhinoceros",
         "enabled": true
     },
     {
-        "text": "Blueberry",
+        "text": "Cheetah",
         "enabled": true
     },
     {
-        "text": "Papaya",
+        "text": "Leopard",
         "enabled": true
     },
     {
-        "text": "Cantaloupe",
+        "text": "Crocodile",
         "enabled": true
     },
     {
-        "text": "Coconut",
+        "text": "Alligator",
         "enabled": true
     },
     {
-        "text": "Avocado",
+        "text": "Snake",
         "enabled": true
     },
     {
-        "text": "Fig",
+        "text": "Frog",
         "enabled": true
     },
     {
-        "text": "Date",
+        "text": "Turtle",
         "enabled": true
     },
     {
-        "text": "Dragonfruit",
+        "text": "Penguin",
         "enabled": true
     },
     {
-        "text": "Lychee",
+        "text": "Dolphin",
         "enabled": true
     },
     {
-        "text": "Persimmon",
+        "text": "Whale",
         "enabled": true
     },
     {
-        "text": "Tangerine",
+        "text": "Shark",
         "enabled": true
     },
     {
-        "text": "Grapefruit",
+        "text": "Octopus",
         "enabled": true
     },
     {
-        "text": "Passion fruit",
+        "text": "Crab",
         "enabled": true
     },
     {
-        "text": "Guava",
+        "text": "Lobster",
         "enabled": true
     },
     {
-        "text": "Cucumber",
+        "text": "Eagle",
         "enabled": true
     },
     {
-        "text": "Tomato",
+        "text": "Hawk",
         "enabled": true
     },
     {
-        "text": "Jackfruit",
+        "text": "Owl",
         "enabled": true
     },
     {
-        "text": "Lime",
+        "text": "Parrot",
         "enabled": true
     },
     {
-        "text": "Mulberry",
+        "text": "Peacock",
         "enabled": true
     },
     {
-        "text": "Cranberry",
+        "text": "Duck",
         "enabled": true
     },
     {
-        "text": "Starfruit",
+        "text": "Goose",
         "enabled": true
     },
     {
-        "text": "Longan",
+        "text": "Chicken",
         "enabled": true
     },
     {
-        "text": "Soursop",
+        "text": "Rooster",
         "enabled": true
     },
     {
-        "text": "Mandarin",
+        "text": "Turkey",
         "enabled": true
     },
     {
-        "text": "Elderberry",
+        "text": "Pig",
         "enabled": true
     },
     {
-        "text": "Gooseberry",
+        "text": "Cow",
         "enabled": true
     },
     {
-        "text": "Acerola",
+        "text": "Sheep",
         "enabled": true
     },
     {
-        "text": "Pomelo",
+        "text": "Goat",
         "enabled": true
     },
     {
-        "text": "Loquat",
+        "text": "Camel",
         "enabled": true
     },
     {
-        "text": "Rambutan",
+        "text": "Donkey",
         "enabled": true
     },
     {
-        "text": "Custard apple",
+        "text": "Bee",
+        "enabled": true
+    },
+    {
+        "text": "Butterfly",
         "enabled": true
     }
 ]
